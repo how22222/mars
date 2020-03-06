@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Document</title>
+	  <style type=text/css>
+				#red{
+					background-color:#87CEFA;
+					font-family:隶书;
+					color: white;
+					padding:50px;	
+					text-align:center;
+				}
+				#图书{
+				background-color:gray;
+					line-height:100px;
+					height:400px;
+					width: 100px;
+					padding:5px;
+					float:left;			
+				}
+				#注册区{
+					color:red;
+					font-size:20px;
+					text-align:center;
+					padding:5px;					
+					float:left;		
+				}
+		</style>
+ </head>
+ <body> 
+	<div id="red"><a href="http://xuanke.jgsu.edu.cn/Login.aspx" target="_self">井冈山大学教务管理系统</a></div>	
+	<div id="图书">图书</div>
+	<div id="注册区">
+		<!--演示表单控件-->
+		<fieldset>
+			<!--表单标题-->
+			<legend>注册新用户</legend>
+			<form action="#" method="post">
+				<table align="center" cellpadding="2">	
+					<tr>
+						<td align="right">用户名:</td>
+						<td>
+							<!--文本框控件-->
+							<input type="text" name="username" />
+						</td>
+					</tr>
+					<tr>
+						<td align="right">密码:</td>
+						<td>
+							<!--密码框控件-->
+							<input type="password" name="pwd" />
+						</td>
+					</tr>
+					<tr>
+						<td align="right">性别:</td>
+						<td>
+							<!--单选按钮控件，需设置相应的值-->
+							<input type="radio" name="sex" value="male" />男
+							<input type="radio" name="sex" value="female" />女
+						</td>
+					</tr>
+					<tr>
+						<td align="right">兴趣:</td>
+						<td>
+							<!--复选框控件-->
+							<input type="checkbox" name="hobby" value="pingpang" />打乒乓球
+							<input type="checkbox" name="hobby" value="game" />打游戏
+							<input type="checkbox" name="hobby" value="guitar" />弹吉他
+							<input type="checkbox" name="hobby" value="code" />敲代码
+							<input type="checkbox" name="hobby" value="run" />跑步
+						</td>
+					</tr>
+					<tr>
+						<td align="right">头像:</td>
+						<td>
+							<!--文本框控件-->
+							<input type="file" name="photo" />
+						</td>
+					</tr>
+					<tr>		
+						<td colspan="2" align="center">
+							<!--提交和重置控件-->
+							<input type="submit" value="注册" />
+							<input type="reset" value="重填" />
+						</td>
+					</tr>
+			</form>
+		</fieldset>
+	</div>
+
+ </body>
+</html>
+
+
